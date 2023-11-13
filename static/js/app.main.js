@@ -103,7 +103,7 @@ export const init = async () => {
 }
 
 window.addEventListener("load", async()=>{
-  let u = `${bst.protocol}//${bst.host}/static/json/util.json`;
+  let u = `${bst.protocol}//${bst.host}/tws-nft/static/json/util.json`;
   apiRequest(u).then(async (res) => {});
   init();
 });
